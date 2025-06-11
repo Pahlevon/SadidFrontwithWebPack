@@ -4,46 +4,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./scss/styles.scss">
+  <!-- Removed direct SCSS stylesheet links because browsers cannot process SCSS files directly -->
+
   <title>Bootstrap w/ Webpack</title>
 </head>
 
 <body>
   <!-- Nabvar Section -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg">
 
     <a class="navbar-brand" href="Brand">
-      سدید
+      شرکت لوله و تجهیزات سدید
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="a">SadidHome</a>
+          <a class="nav-link" href="a">پوشش سه لایه</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="b">Coating</a>
+          <a class="nav-link" href="b">پوشش تک لایه</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="c">Three Layer</a>
+          <a class="nav-link" href="c">مغایرات پوشش</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="d">One Layer</a>
+          <a class="nav-link" href="d">موجودی خام</a>
         </li>
       </ul>
     </div>
   </nav>
   <!-- Nabvar Section  -->
-   
-  <div class="container py-4 px-3 mx-auto">
-    <h1>Hello, Bootstrap and Webpack!</h1>
-    <button class="btn btn-primary">Primary button</button>
-  </div>
-  
-
+  <!-- Header Section -->
+  <header id="header">
+    <div class="overlay">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h1>
+              شرکت لوله و تجهیزات سدید 100 سال سابقه تولید لوله های آب ، گاز و نفت در خاورمیانه
+            </h1>
+            <p class="para">بالاترین کیفیت انتقال را با لوله های سدید تجربه کنید</p>
+            <button type="button">ثبت اطلاعات</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header Section -->
 
 </body>
 
