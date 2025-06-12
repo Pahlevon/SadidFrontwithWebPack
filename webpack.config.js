@@ -5,6 +5,7 @@ const path = require('path')
 const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const miniCssExtractPlugin = require('mini-css-extract-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 
 
@@ -22,7 +23,12 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.html' }),
-    new miniCssExtractPlugin()
+    new miniCssExtractPlugin(),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: path.resolve(__dirname, 'src/shared/images/favicon.ico'), to: path.resolve(__dirname, 'dist/favicon.ico') }
+      ]
+    })
   ],
   resolve: {
     extensions: ['.js', '.scss']
