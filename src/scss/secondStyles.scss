@@ -1,14 +1,38 @@
+@font-face {
+  font-family: 'B Nazanin';
+  src: url('../shared/fonts/BNAZANIN.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IranNastaliq';
+  src: url('../shared/fonts/IRANNASTALIQ.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {
+  font-family: 'B Nazanin', Tahoma, Arial, sans-serif;
+}
+
+.navbar, .navbar * {
+  font-family: 'IranNastaliq', Tahoma, Arial, sans-serif !important;
+  font-size: 35px;
+}
+
 .navbar{
           background-color: #df0909;
-          border-bottom: rgb(0, 0, 0) solid 5px ;
-          border-top: rgb(0, 0, 0) solid 5px ;   
+          border-bottom: rgb(255, 255, 255) dotted 2px ;
+          border-top: rgb(255, 255, 255) dotted 2px ;   
 }
 .navbar .navbar-brand{
           color: white;
-          font-size: 25px;
+          font-size: 50px;
+          margin-left: 80px;
 }
 .nav-link{
           color: white;
+          margin-inline: 20px;
 }
 .nav-link:hover{
           color: rgb(255, 255, 255);
@@ -22,8 +46,18 @@
           
 }
 .para{
-          font-size: large;
+          font-size: 30px;
           text-align: center;
           text-decoration: transparent; 
           color: white; 
+}
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar .navbar-toggler {
+  border-color: white !important;
+}
+.btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
 }
