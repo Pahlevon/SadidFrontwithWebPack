@@ -1,7 +1,7 @@
 .navbar{
-          background-color: #9a1616;
-          border-bottom: rgb(0, 0, 0) double 10px ;
-          border-top: rgb(0, 0, 0) solid 5px ;    
+          background-color: #df0909;
+          border-bottom: rgb(0, 0, 0) solid 5px ;
+          border-top: rgb(0, 0, 0) solid 5px ;   
 }
 .navbar .navbar-brand{
           color: white;
@@ -15,18 +15,15 @@
           font-weight: bold;
 }
 #header{
-          background: url('../shared/1.png') no-repeat; 
+          
+          background: url('../shared/images/Poshesh.jpg') no-repeat; 
           background-size: cover;
           height: 100vh;
           
 }
 .para{
-          color: #9a1616;
           font-size: large;
           text-align: center;
+          text-decoration: transparent; 
+          color: white; 
 }
-
-.h1{margin-top: 50px;
-          color: #9a1616;
-          font-size: 40px;
-          text-align: center;}
