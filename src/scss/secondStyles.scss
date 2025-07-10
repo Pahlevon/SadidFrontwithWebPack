@@ -64,8 +64,24 @@ body, html {
 
 // Card Style
 .card-header{
+  color: aliceblue;
   font-family: 'IranNastaliq', Tahoma, Arial, sans-serif !important;
   font-size: 50px;
   text-align: center;
   border-color: #df0909;
+}
+.transparent-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.transparent-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+.card-body{
+  color: aliceblue;
 }
