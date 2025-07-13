@@ -22,8 +22,8 @@ body, html {
 
 .navbar{
           background-color: #df0909;
-          border-bottom: rgb(255, 255, 255) dotted 2px ;
-          border-top: rgb(255, 255, 255) dotted 2px ;   
+          border-bottom: rgb(255, 255, 255) solid 10px ;
+          border-top: rgb(255, 255, 255) solid 10px ;   
 }
 .navbar .navbar-brand{
           color: white;
@@ -38,13 +38,13 @@ body, html {
           color: rgb(255, 255, 255);
           font-weight: bold;
 }
-#header{
+// #header{
           
-          background: url('../shared/images/Poshesh.jpg') no-repeat; 
-          background-size:cover;
-          height: 100vh;
+//           background: url('../shared/images/Poshesh.jpg') no-repeat; 
+//           background-size:cover;
+//           height: 100vh;
           
-}
+// }
 .para{
           font-size: 30px;
           text-align: center;
@@ -60,20 +60,21 @@ body, html {
 .btn {
   font-size: 1.5rem;
   padding: 1rem 2rem;
+  background-color: #df0909b3;
 }
 
 // Card Style
 .card-header{
-  color: aliceblue;
+  // color: aliceblue;
   font-family: 'IranNastaliq', Tahoma, Arial, sans-serif !important;
   font-size: 50px;
   text-align: center;
-  border-color: #df0909;
+  border-color: #ff0000;
 }
 .transparent-card {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 1, 1, 0.995);
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -82,6 +83,6 @@ body, html {
 .transparent-card:hover {
   background: rgba(255, 255, 255, 0.25);
 }
-.card-body{
-  color: aliceblue;
-}
+// .card-body{
+//   color: aliceblue;
+// }
